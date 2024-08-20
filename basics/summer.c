@@ -14,5 +14,7 @@ int main (void){
     
     int a = x+y+z;
 
-    printf("%d", a);
+    printf("%d \n", a);
+
+    return 0;
 }

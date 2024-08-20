@@ -16,8 +16,8 @@ int main(void){
     struct person bob;
 
     bob.age = 40;
-    strcpy (bob.name, "Bob"); //cant use = to assign strings, must use strcopy
-    strcpy (bob.faveColour, "blue");
+    strncpy (bob.name, "Bob", sizeof(30)); //cant use = to assign strings, must use strcopy
+    strncpy (bob.faveColour, "blue", sizeof(10));
 
     struct person bill = {.age = 30, .name = "Bill", .faveColour = "Green"};
 
@@ -25,6 +25,6 @@ int main(void){
 
     printf("This person is called %s and is %d years old and their favourite colour is %s \n", bob.name, bob.age, bob.faveColour);
 
-    printf("This person is called %s and is %d years old and their favourite colour is %s", bill.name, bill.age, bill.faveColour);
+    printf("This person is called %s and is %d years old and their favourite colour is %s \n", bill.name, bill.age, bill.faveColour);
 
 }
