@@ -7,8 +7,8 @@ struct Protty {
 };
 
 int main(void) {
-    unsigned short Prot = 0xB7B2;
-    //unsigned short Prot = 0xB7B3; - This will make it say wronf
+    //unsigned short Prot = 0xB7B2;
+    unsigned short Prot = 0xB7B3; //- This will make it say wronf
 
     struct Protty p;
     p.type = (Prot >> 10) & 0x3F;
@@ -20,7 +20,7 @@ int main(void) {
         printf("Priority: %d\n", p.prio);
         printf("ID: %d\n", p.ID);
     }else{
-        printf("Wrong");
+        printf("Wrong\n");
     }
 
     return 0;
