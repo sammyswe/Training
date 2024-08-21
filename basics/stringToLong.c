@@ -10,4 +10,5 @@ int main(void){
     }
 
     printf("Long int = %ld", x);
+    return 0;
 }

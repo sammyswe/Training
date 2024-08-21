@@ -7,6 +7,8 @@ int main(void){
 
     printPhrase(printString);
 
+    return 0;
+
 }
 
 void printPhrase(char string[]){

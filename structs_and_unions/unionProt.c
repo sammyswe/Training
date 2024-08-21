@@ -24,6 +24,6 @@ int main(void){
         printf("Wrong\n");
     }
 
-
+    return 0;
 }
 

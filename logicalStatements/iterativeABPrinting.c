@@ -1,5 +1,4 @@
 #include <stdio.h> 
-#include <stlib.h>
 
 int main(void){
 
@@ -29,5 +28,5 @@ int main(void){
 
     }
 
-    return EXIT_SUCCESS;
+    return 0;
 }

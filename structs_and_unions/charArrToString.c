@@ -8,4 +8,6 @@ int main(void){
         printf("%c", string[i]);
     }
     printf("\n");
+
+    return 0;
 }

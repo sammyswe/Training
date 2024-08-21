@@ -27,4 +27,6 @@ int main(void){
 
     printf("This person is called %s and is %d years old and their favourite colour is %s \n", bill.name, bill.age, bill.faveColour);
 
+    return 0;
+
 }
