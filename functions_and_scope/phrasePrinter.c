@@ -17,4 +17,6 @@ void printPhrase(char string[]){
         printf("%c", string[i]);
     }
    printf("\n"); 
+
+   return 0;
 }

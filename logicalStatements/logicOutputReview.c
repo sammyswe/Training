@@ -2,12 +2,13 @@
 /*
 Output Will Be:
 
-B>A
-C>A
-C>B
+Underflow of A as is an unsigned int, so A is larger than b and c
+
+A>B
+A>C
+B>C
 
 */
-
 
 int main(void)
 {
