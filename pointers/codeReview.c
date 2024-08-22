@@ -28,7 +28,7 @@ int main(void)
        get_sky_team_name(pTeamName);        
        
        //print team name
-       printf("%s: %s\n", skyName, pTeamName); 
+       printf("%s: %s\n", skyName, pTeamName); //sky name not defined. 
        
        sleep(1);
    }
