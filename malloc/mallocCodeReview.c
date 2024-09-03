@@ -12,6 +12,8 @@ void print_sky_team(void)
        
    //print team name
    printf("%s: %s\n", skyName, pTeamName); //needs to dereference. 
+
+   //memory leak- free pointer
 }
 
 int main(void){

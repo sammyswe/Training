@@ -3,16 +3,15 @@
 int main(void){
 
     struct person {
-        unsigned int type : 6;
-        unsigned int prio : 3;
         unsigned int ID : 7;
+        unsigned int prio : 3;
+        unsigned int type : 6;
+        
     };
 
     union Prot {
-
         unsigned short data;
         struct person p;
-
     }varprot;
 
 
@@ -20,9 +19,6 @@ int main(void){
     unsigned short a = varprot.p.type;
     unsigned short b = varprot.p.prio;   
     unsigned short c = varprot.p.ID;
-    printf("Type: %d\n", a);
-    printf("Priority: %d\n", b);
-    printf("ID: %d\n", c);
 
     if(a == 45 && b == 7 && c == 50){
         printf("Type: %d\n", a);

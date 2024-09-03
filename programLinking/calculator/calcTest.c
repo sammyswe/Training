@@ -19,12 +19,25 @@ int main(void){
 
     printf("\nChecking calculator functions working correctly.....\n");
     if (c == a+b){
-        printf("Add function working correctly :)");
+        printf("Add function working correctly :)\n");
     }else{
         printf("Add function failing - check function logic");
     }
+    if (d == a*b){
+        printf("Multiply function working correctly :) \n");
+    }else{
+        printf("Multiply function failing - check function logic");
+    }
+    if (e == a*a){
+        printf("Square function working correctly :)\n");
+    }else{
+        printf("Square function failing - check function logic");
+    }
+    if (f == a*a*a){
+        printf("Cube function working correctly :)\n");
+    }else{
+        printf("Cube function failing - check function logic");
+    }
 
-
-    
 
 }

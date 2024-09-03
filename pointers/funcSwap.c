@@ -17,4 +17,5 @@ int main(int argc, char *argv[]) {
    printf("val_a is %d (should be 20)\n", val_a);
    printf("val_b is %d (should be 50)\n", val_b);
   return 0;
+  
 }
