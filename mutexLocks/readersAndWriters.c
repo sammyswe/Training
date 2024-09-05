@@ -5,7 +5,7 @@
 #include <semaphore.h>
 #include <fcntl.h>  
 
-#define MAX_READERS 5 //READER PRECEDENCE
+#define MAX_READERS 5 //Readers precedence
 
 int shared_data = 0;
 int reader_count = 0;
