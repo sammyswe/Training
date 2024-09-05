@@ -53,7 +53,7 @@ int main(void){
         //2. pointer to the buffer (arrays are treated as pointers inherently)
         //3. length of the data to be sent
         //4. flags (this will just be set to 0 most of the time.)
-        printf("Data sent successfully\n");
+        printf("Data sent successfully. \n");
     }
 
     
