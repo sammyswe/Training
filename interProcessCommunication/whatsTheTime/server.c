@@ -24,6 +24,8 @@ int main(void){
     retval = bind(sd, (struct sockaddr*)&server_addr, sizeof(server_addr)); //link socket to socket properties
     retval = listen(sd, 10);//wait for connection request
 
+    //check return value for debugging.
+
 
     socklen_t len = sizeof(client_addr); 
     new_sd = accept(sd, (struct sockaddr*)&client_addr, &len); //stores client address in new socket
